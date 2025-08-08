@@ -55,6 +55,11 @@ img {
     float: none;              /* override float from default img */
     max-width: 80%;           /* optional: override width for centered version */
 }
+@media (max-width: 600px) {
+    .centered-img {
+        max-width: 100%;  /* increase max-width for small screens */
+    }
+}
 
 .buy-button {
     background-color: gold;
