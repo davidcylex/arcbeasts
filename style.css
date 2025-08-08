@@ -49,6 +49,11 @@ img {
     /*margin-bottom: 20px;*/
     margin: 0 15px 15px 0; /* space around the image: top | right | bottom | left */
 }
+@media (max-width: 800px) {
+    img {
+        max-width: 50%;       /* make image bigger on small screens */
+    }
+}
 .centered-img {
     display: block;
     margin: 0 auto 20px auto; /* center horizontally, with some bottom margin */
