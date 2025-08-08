@@ -51,7 +51,7 @@ img {
 }
 @media (max-width: 800px) {
     img {
-        max-width: 50%;       /* make image bigger on small screens */
+        max-width: 40%;       /* make image bigger on small screens */
     }
 }
 .centered-img {
