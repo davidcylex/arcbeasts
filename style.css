@@ -37,6 +37,11 @@ main {
     margin: 0 auto;
     line-height: 1.5;
 }
+@media (max-width: 600px) {
+    .content-wrapper {
+        max-width: 90%;
+    }
+}
 img {
     float: left;      /* or right */
     max-width: 30%;
