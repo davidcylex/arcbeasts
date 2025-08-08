@@ -37,7 +37,7 @@ main {
     margin: 0 auto;
     line-height: 1.5;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .content-wrapper {
         max-width: 90%;
     }
