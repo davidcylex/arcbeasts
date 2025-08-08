@@ -55,7 +55,7 @@ img {
     float: none;              /* override float from default img */
     max-width: 80%;           /* optional: override width for centered version */
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .centered-img {
         max-width: 100%;  /* increase max-width for small screens */
     }
